@@ -1,6 +1,7 @@
 require 'telegram/bot'
-require_relative 'story.rb'
-require_relative '../token.rb'
+require_relative 'story'
+require_relative '../token'
+require_relative '../assets/inline_button'
 
 class Bot
   def initialize
